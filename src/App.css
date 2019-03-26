@@ -1,0 +1,78 @@
+:root {
+  --mainColor: #3f1508;
+  --secondColor: #ffffff;
+  --mainColorBackground: #a1e668;
+  --mainColorDark: #bb3737;
+  --mainColorLight: #f3b43e;
+  --darkGrayColor: rgb(128, 128, 128);
+}
+/* bootstrap overrides fonts etc so use !important */
+body {
+  font-family: "Roboto", sans-serif !important;
+  background: var(--mainColorBackground) !important;
+  color: var(--mainColorDark) !important;
+}
+
+.text-title {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-color {
+  color: var(--mainColor);
+}
+.text-light {
+  color: var(--secondColor);
+}
+.text-super-light {
+  color: var(--darkGrayColor);
+  font-size: 0.8rem;
+  font-style: italic;
+}
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 1.3rem !important;
+  color: var(--mainColorDark);
+  border: 2px solid var(--mainColorDark) !important;
+  border-radius: 8px !important;
+  padding: 0 0.6rem !important;
+}
+.btn-black:hover {
+  background: var(--mainColorDark) !important;
+  color: var(--mainColorLight) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainColor);
+}
+.cart-icon:hover {
+  color: var(--mainColorDark);
+}
+
+.promotion-container {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+}
+
+.promotion-animation {
+  animation: promotion 6s infinite cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes promotion {
+  0% {
+    transform: translateX(0%);
+  }
+
+  50% {
+    transform: translateX(60%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
