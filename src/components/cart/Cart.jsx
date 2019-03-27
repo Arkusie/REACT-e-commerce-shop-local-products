@@ -9,14 +9,17 @@ import CartTotals from "./CartTotals";
 export default class Cart extends Component {
   render() {
     return (
-      <section>
+      <section id="cart-div">
         <ProductConsumer>
           {value => {
             const { cart } = value;
             if (cart.length > 0) {
               return (
                 <>
+                  <br />
+                  <br />
                   <Title name="Your" title=" cart" />
+                  <br />
                   <CartColumns />
                   <CartList value={value} />
                   <CartTotals value={value} history={this.props.history} />

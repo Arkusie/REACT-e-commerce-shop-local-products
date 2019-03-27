@@ -54,6 +54,9 @@ const NavWrapper = styled.nav`
   li:hover {
     border-bottom: 2px solid var(--mainColorLight);
   }
+  li:nth-child(3):hover {
+    border: none;
+  }
 
   .nav-link {
     color: var(--mainColorLight) !important;
