@@ -2,7 +2,7 @@
   "name": "ecommerce-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arkusie.github.io/",
+  "homepage": "https://arkusie.github.io/REACT-e-commerce-shop-local-products/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
