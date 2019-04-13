@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "38e233f10b94c997b715",
+    "revision": "1f3eecea0525c87cbbb6",
     "url": "/REACT-e-commerce-shop-local-products/static/css/main.193f4d89.chunk.css"
   },
   {
-    "revision": "38e233f10b94c997b715",
-    "url": "/REACT-e-commerce-shop-local-products/static/js/main.7ca38bfe.chunk.js"
+    "revision": "1f3eecea0525c87cbbb6",
+    "url": "/REACT-e-commerce-shop-local-products/static/js/main.afb2c5da.chunk.js"
   },
   {
     "revision": "5098b9aa19f09b80435e",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/REACT-e-commerce-shop-local-products/static/media/fields1.0560fb16.jpg"
   },
   {
-    "revision": "4c11e616a320e3c7262aea4a9105b3cc",
+    "revision": "c94ddd561c4d97fafed099889c60a7df",
     "url": "/REACT-e-commerce-shop-local-products/index.html"
   }
 ];
