@@ -2,7 +2,7 @@ export const storeProducts = [
   {
     id: 1,
     title: "Pumpkin",
-    img: "img/product-1.png",
+    img: "img/product1.png",
     price: 5,
     company: "Brads coral fields",
     info:
@@ -15,7 +15,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "Carrots",
-    img: "img/product-2.png",
+    img: "img/product2.png",
     price: 0.2,
     company: "Brads coral fields",
     info:
@@ -28,7 +28,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "Japan Pumpkin",
-    img: "img/product-3.png",
+    img: "img/product3.png",
     price: 3.3,
     company: "The Oriental GreenHouse",
     info:
@@ -41,7 +41,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "banana",
-    img: "img/product-4.png",
+    img: "img/product4.png",
     price: 1.1,
     company: "The Oriental GreenHouse",
     info:
@@ -54,11 +54,11 @@ export const storeProducts = [
   {
     id: 5,
     title: "Lettuce",
-    img: "img/product-5.png",
+    img: "img/product5.png",
     price: 0.3,
     company: "Greenhouse Prime",
     info:
-      "Lettuce (Lactuca sativa) is an annual plant of the daisy family, Asteraceae. It is most often grown as a leaf vegetable, but sometimes for its stem and seeds. Lettuce is most often used for salads, although it is also seen in other kinds of food, such as soups, sandwiches and wraps; it can also be grilled.[3] One variety, the woju (莴苣), or asparagus lettuce (celtuce), is grown for its stems, which are eaten either raw or cooked. In addition to its main use as a leafy green, it has also gathered religious and medicinal significance over centuries of human consumption. Europe and North America originally dominated the market for lettuce, but by the late 20th century the consumption of lettuce had spread throughout the world. World production of lettuce and chicory for calendar year 2015 was 26.1 million tonnes, 56% of which came from China.[4]",
+      "Lettuce (Lactuca sativa) is an annual plant of the daisy family, Asteraceae. It is most often grown as a leaf vegetable, but sometimes for its stem and seeds. Lettuce is most often used for salads, although it is also seen in other kinds of food, such as soups, sandwiches and wraps; it can also be grilled.[3] One variety, the woju (莴苣), or asparagus lettuce (celtuce), is grown for its stems, which are eaten either raw or cooked. In addition to its main use as a leafy green, it has also gathered religious and medicinal significance over centuries of human consumption. Europe and North America originally dominated the market for lettuce, but by the late 20th century the consumption of lettuce had spread throughout the world. World producton of lettuce and chicory for calendar year 2015 was 26.1 million tonnes, 56% of which came from China.[4]",
     inCart: false,
     promotion: false,
     count: 0,
@@ -67,7 +67,7 @@ export const storeProducts = [
   {
     id: 6,
     title: "Zucchini",
-    img: "img/product-6.png",
+    img: "img/product6.png",
     price: 0.7,
     company: "Greenhouse Prime",
     info:
@@ -80,7 +80,7 @@ export const storeProducts = [
   {
     id: 7,
     title: "Cucumber",
-    img: "img/product-7.png",
+    img: "img/product7.png",
     price: 0.2,
     company: "Greenhouse Prime",
     info:
@@ -93,11 +93,11 @@ export const storeProducts = [
   {
     id: 8,
     title: "Green Apple",
-    img: "img/product-8.png",
+    img: "img/product8.png",
     price: 0.5,
     company: "Greenhouse Prime",
     info:
-      "An apple is a sweet, edible fruit produced by an apple tree (Malus pumila). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek and European Christian traditions.Apple trees are large if grown from seed. Generally, apple cultivars are propagated by grafting onto rootstocks, which control the size of the resulting tree. There are more than 7,500 known cultivars of apples, resulting in a range of desired characteristics. Different cultivars are bred for various tastes and use, including cooking, eating raw and cider production. Trees and fruit are prone to a number of fungal, bacterial and pest problems, which can be controlled by a number of organic and non-organic means. In 2010, the fruit's genome was sequenced as part of research on disease control and selective breeding in apple production. Worldwide production of apples in 2017 was 83.1 million tonnes, with China accounting for 49.8% of the total.[3]",
+      "An apple is a sweet, edible fruit produced by an apple tree (Malus pumila). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek and European Christian traditions.Apple trees are large if grown from seed. Generally, apple cultivars are propagated by grafting onto rootstocks, which control the size of the resulting tree. There are more than 7,500 known cultivars of apples, resulting in a range of desired characteristics. Different cultivars are bred for various tastes and use, including cooking, eating raw and cider producton. Trees and fruit are prone to a number of fungal, bacterial and pest problems, which can be controlled by a number of organic and non-organic means. In 2010, the fruit's genome was sequenced as part of research on disease control and selective breeding in apple producton. Worldwide producton of apples in 2017 was 83.1 million tonnes, with China accounting for 49.8% of the total.[3]",
     inCart: false,
     promotion: false,
     count: 0,
@@ -106,7 +106,7 @@ export const storeProducts = [
   {
     id: 9,
     title: "Grapes",
-    img: "img/product-9.png",
+    img: "img/product9.png",
     price: 2,
     company: "Greenhouse Prime",
     info:
@@ -119,7 +119,7 @@ export const storeProducts = [
   {
     id: 10,
     title: "Orange",
-    img: "img/product-10.png",
+    img: "img/product10.png",
     price: 2,
     company: "Por Favor",
     info:
@@ -132,7 +132,7 @@ export const storeProducts = [
   {
     id: 11,
     title: "Tomato",
-    img: "img/product-11.png",
+    img: "img/product11.png",
     price: 0.1,
     company: "Por Favor",
     info:
@@ -145,7 +145,7 @@ export const storeProducts = [
   {
     id: 12,
     title: "Watermelon",
-    img: "img/product-12.png",
+    img: "img/product12.png",
     price: 2.1,
     company: "Por Favor",
     info:
@@ -159,7 +159,7 @@ export const storeProducts = [
 export const detailProduct = {
   id: 1,
   title: "Pumpkin",
-  img: "img/product-1.png",
+  img: "img/product1.png",
   price: 5,
   company: "Brads coral fields",
   info:
