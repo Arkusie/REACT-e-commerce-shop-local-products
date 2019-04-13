@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Arkusie/REACT-e-commerce-shop-local-products/precache-manifest.e66a423f6f22bdaa3dc6e2253b9d3565.js"
+  "/REACT-e-commerce-shop-local-products/precache-manifest.1d5d00b1da8df86ca97bd7ff45cc3738.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Arkusie/REACT-e-commerce-shop-local-products/index.html", {
+workbox.routing.registerNavigationRoute("/REACT-e-commerce-shop-local-products/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
