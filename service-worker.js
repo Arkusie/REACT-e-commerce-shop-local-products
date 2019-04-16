@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/REACT-e-commerce-shop-local-products/precache-manifest.07cd302a0bc8e15c530301b60bd06386.js"
+  "/React_Local_Farmer/precache-manifest.5ff61edaac97ac033a6e459d6bcffb49.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/REACT-e-commerce-shop-local-products/index.html", {
+workbox.routing.registerNavigationRoute("/React_Local_Farmer/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
