@@ -10,7 +10,11 @@ export default function CartTotals({ value }) {
         <div className="row">
           <div className="col-10 mt-3 ml-sm-5 ml-md-auto col-sm-8 text-right">
             <Link to="/">
-              <button className="btn btn-outline-danger mb-2 px-4" type="button" onClick={() => clearCart()}>
+              <button
+                className="btn btn-outline-danger mb-2 px-4"
+                type="button"
+                onClick={() => clearCart()}
+              >
                 clear cart
               </button>
             </Link>
@@ -30,7 +34,7 @@ export default function CartTotals({ value }) {
               </span>
             </h5>
             <br />
-            <PayPalButton total={CartTotal} clearCart={clearCart} history={history} />
+            {/* <PayPalButton total={CartTotal} clearCart={clearCart} history={history} /> */}
           </div>
         </div>
       </div>
